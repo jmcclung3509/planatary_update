@@ -1,0 +1,85 @@
+:root {
+    --pink: #fbe6f4ff;
+    --yellow: #fffad1ff;
+    --green: #e1f0e5ff;
+    --blue: #b5caf9ff;
+    --orange: #f5e6db;
+    --raisin: #2b283aff;
+    --grey: #d4d4d4;
+}
+
+body {
+    background-color: var(--raisin);
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.planet {
+    margin: 1em;
+    border-radius: 50%;
+    width: 100%;
+    /* background-blend-mode: color-dodge; */
+}
+
+.hide {
+    display: none;
+}
+
+.btn-container {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: #b1ff05;
+    font-weight: bold;
+    color: #001e2b;
+
+}
+
+.show {
+    display: block;
+}
+
+.planetDiv {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+
+
+
+.info {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #b4bec6;
+
+}
+
+.planetName {
+    font-size: 2rem;
+    /* color: #b1ff05 */
+}
+
+.planetInfo {
+    width: 100%;
+}
+
+.overlay {
+    background: linear-gradient(to right, transparent, black);
+    border-radius: 50%;
+}
